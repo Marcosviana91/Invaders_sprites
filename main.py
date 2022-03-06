@@ -4,7 +4,7 @@ from sys import exit
 from cores import *
 import android
 
-sprite_sheet = pygame.image.load('sprites/shipsall.gif') # https://opengameart.org/content/spaceships-1
+sprite_sheet = pygame.image.load('shipsall.gif') # https://opengameart.org/content/spaceships-1
 
 class Nave(pygame.sprite.Sprite):
 	def __init__(self, enemy=False, super=False):
